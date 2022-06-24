@@ -1,0 +1,189 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	margin: 0 18px
+}
+.nav li a{
+	text-decoration: none;
+	color: black
+}
+.nav li a:hover{
+	text-decoration: underline;
+	transition-duration: 0.2s
+}
+.header .row{
+	padding: 8px 0
+}
+.bt-1{
+	margin: 0 5px;
+	padding: 5px 15px;
+	border-radius: 20px;
+}
+.bt-1:hover{
+	background-color: #CACACA;
+}
+.bt-2{
+	border-radius: 30px
+}
+.header{
+	background: rgba(255,255,255,0.71);
+	align-items: center;
+	position: fixed;
+	left: 110px
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+.banner{
+	background-image: url("../img/galaxy-s22-ultra_highlights_kv_img.jpg");
+	background-size: cover
+}
+.content-banner{
+/*	background-image: url("../img/galaxy-s22-ultra_highlights_kv_img.jpg");*/
+	padding: 350px 0;
+	background-size: cover;
+	background-attachment: scroll;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+.content-banner a{
+	padding: 20px;
+	color: rgba(0,100,193,1.00);
+	text-decoration: none;
+	text-align: center;
+	color: white
+}
+.content-banner a:hover{
+	text-decoration: underline;
+	color: black;
+	background-color: white;
+	transition-duration: 0.5s
+}
+.content-banner p{
+	margin-bottom: 30px
+}
+.content-banner h{
+	font-size: 40px;
+}
+.title {
+	text-align: center;
+	padding: 30px;
+}
+.banner-2 ul{
+	list-style: none
+}
+.banner-2 li a{
+	text-decoration: none;
+	color: black;
+	margin: 0 15px;
+	padding-top: 20px
+}
+.col-4 a:hover{
+	text-decoration: underline
+}
+.banner-2{
+	background-color: rgba(205,205,205,1.00)
+}
+.box{
+	margin-top: 50px;
+}
+.services{
+	text-align: center;
+	margin: 30px 0;
+}
+.feature{
+	overflow: hidden;
+	width: 100%;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto
+}
+.feature img{
+	width: 100%
+}
+.box h2{
+	text-align: center;
+	margin: 20px 0 15px 0;
+	font-size: 36px
+}
+.box a{
+	padding: 20px;
+	background: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	border-radius: 30px;
+	opacity: 0
+}
+.content-box p{
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 22px
+}
+.bold{
+	font-size: 25px
+}
+.box a:hover{
+	color: white;
+	background: #000000;
+}
+.box:hover a{
+	opacity: 100%;
+	transition-duration: 0.5s
+}
+.box:hover img{
+	transform: scale(1.1);
+	transition-duration: 0.5s
+}
+.mau-nen{
+	padding-bottom: 30px;
+	margin-top: 20px
+}
+.banner img{
+	background-size: cover
+}
+.section-1{
+	background-color: #E7E7E7
+}
+.TV h1{
+	text-align: center;
+	margin-bottom: 20px
+}
+.section-2{
+/*	text-align: center;*/
+	background-image: url("../img/yqwUpapke6rNPJNTrzNYfi.jpg");
+	padding: 400px 0;
+	color: white;
+	position: relative;
+	background-repeat: no-repeat;
+}
+.content-box h{
+	position: absolute;
+	left: 600px;
+	top: 700px;
+	font-size: 40px;
+	text-align: center
+}
+.bt-3{
+	margin-left: 30px;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	background: black;
+}
+.can-giua{
+	text-align: center;
+	margin-top: 450px
+}
+.can-giua:hover a{
+	color: black;
+	background: white;
+}
